@@ -21,7 +21,7 @@ def user_login(request):
         if user:
             
             
-            return redirect('practicehome') 
+            return render(request,'practice/practicehome.html')
            
         else:
             return HttpResponse("Please use correct id and password")

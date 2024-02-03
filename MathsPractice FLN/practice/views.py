@@ -3,7 +3,7 @@
 from django.shortcuts import render,redirect
 from .models import *
 # Create your views here.
-def practice(request):
+def practicehome(request):
     
     return render(request,'practice/practicehome.html')
 def practiceQ1(request):
